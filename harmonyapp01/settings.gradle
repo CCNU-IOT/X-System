@@ -1,0 +1,2 @@
+rootProject.name = 'harmonyapp01'
+include ':entry'

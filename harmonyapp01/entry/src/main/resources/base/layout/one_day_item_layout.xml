@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="horizontal">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:orientation="vertical"
+        ohos:left_margin="21vp">
+
+        <Text
+            ohos:id="$+id:txt_time1"
+            ohos:height="match_content"
+            ohos:width="match_content"
+
+            ohos:text="time"
+            ohos:text_size="25vp"
+            ohos:weight="700vp"
+            ohos:top_margin="15vp"
+            ohos:bottom_margin="20vp"/>
+
+
+        <Image
+            ohos:id="$+id:img1"
+
+            ohos:height="60vp"
+            ohos:width="60vp"
+            ohos:scale_mode="clip_center"
+            ohos:image_src="$media:one_day_icon"/>
+
+
+        <Text
+            ohos:id="$+id:txt_one_data1"
+            ohos:height="match_content"
+            ohos:width="match_content"
+
+            ohos:text="data"
+            ohos:text_size="25vp"
+            ohos:weight="700vp"
+            ohos:top_margin="15vp"
+            ohos:bottom_margin="15vp"/>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:orientation="vertical"
+        ohos:left_margin="21vp">
+
+        <Text
+            ohos:id="$+id:txt_time2"
+            ohos:height="match_content"
+            ohos:width="match_content"
+
+            ohos:text="time"
+            ohos:text_size="25vp"
+            ohos:weight="700vp"
+            ohos:top_margin="15vp"
+            ohos:bottom_margin="20vp"/>
+
+
+        <Image
+            ohos:id="$+id:img2"
+
+            ohos:height="60vp"
+            ohos:width="60vp"
+            ohos:scale_mode="clip_center"
+            ohos:image_src="$media:one_day_icon"/>
+
+
+        <Text
+            ohos:id="$+id:txt_one_data2"
+            ohos:height="match_content"
+            ohos:width="match_content"
+
+            ohos:text="data"
+            ohos:text_size="25vp"
+            ohos:weight="700vp"
+            ohos:top_margin="15vp"
+            ohos:bottom_margin="15vp"/>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:orientation="vertical"
+        ohos:left_margin="21vp">
+
+        <Text
+            ohos:id="$+id:txt_time3"
+            ohos:height="match_content"
+            ohos:width="match_content"
+
+            ohos:text="time"
+            ohos:text_size="25vp"
+            ohos:weight="700vp"
+            ohos:top_margin="15vp"
+            ohos:bottom_margin="20vp"/>
+
+
+        <Image
+            ohos:id="$+id:img3"
+
+            ohos:height="60vp"
+            ohos:width="60vp"
+            ohos:scale_mode="clip_center"
+            ohos:image_src="$media:one_day_icon"/>
+
+
+        <Text
+            ohos:id="$+id:txt_one_data3"
+            ohos:height="match_content"
+            ohos:width="match_content"
+
+            ohos:text="data"
+            ohos:text_size="25vp"
+            ohos:weight="700vp"
+            ohos:top_margin="15vp"
+            ohos:bottom_margin="15vp"/>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:orientation="vertical"
+        ohos:left_margin="21vp">
+
+        <Text
+            ohos:id="$+id:txt_time4"
+            ohos:height="match_content"
+            ohos:width="match_content"
+
+            ohos:text="time"
+            ohos:text_size="25vp"
+            ohos:weight="700vp"
+            ohos:top_margin="15vp"
+            ohos:bottom_margin="20vp"/>
+
+
+        <Image
+            ohos:id="$+id:img4"
+
+            ohos:height="60vp"
+            ohos:width="60vp"
+            ohos:scale_mode="clip_center"
+            ohos:image_src="$media:one_day_icon"/>
+
+
+        <Text
+            ohos:id="$+id:txt_one_data4"
+            ohos:height="match_content"
+            ohos:width="match_content"
+
+            ohos:text="data"
+            ohos:text_size="25vp"
+            ohos:weight="700vp"
+            ohos:top_margin="15vp"
+            ohos:bottom_margin="15vp"/>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:orientation="vertical"
+        ohos:left_margin="21vp"
+        ohos:right_margin="21vp">
+
+        <Text
+            ohos:id="$+id:txt_time5"
+            ohos:height="match_content"
+            ohos:width="match_content"
+
+            ohos:text="time"
+            ohos:text_size="25vp"
+            ohos:weight="700vp"
+            ohos:top_margin="15vp"
+            ohos:bottom_margin="20vp"/>
+
+
+        <Image
+            ohos:id="$+id:img5"
+
+            ohos:height="60vp"
+            ohos:width="60vp"
+            ohos:scale_mode="clip_center"
+            ohos:image_src="$media:one_day_icon"/>
+
+
+        <Text
+            ohos:id="$+id:txt_one_data5"
+            ohos:height="match_content"
+            ohos:width="match_content"
+
+            ohos:text="data"
+            ohos:text_size="25vp"
+            ohos:weight="700vp"
+            ohos:top_margin="15vp"
+            ohos:bottom_margin="15vp"/>
+
+    </DirectionalLayout>
+
+
+</DirectionalLayout>
