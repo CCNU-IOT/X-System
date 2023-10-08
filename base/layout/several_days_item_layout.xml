@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:top_margin="15vp"
+        ohos:bottom_margin="15vp"
+        ohos:left_margin="15vp"
+        ohos:right_margin="15vp">
+
+        <Button
+            ohos:id="$+id:btn_date1"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="date"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:btn_day1"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="day"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:btn_highest1"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="top"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:btn_lowest1"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="lowest"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:top_margin="15vp"
+        ohos:bottom_margin="15vp"
+        ohos:left_margin="15vp"
+        ohos:right_margin="15vp">
+
+        <Button
+            ohos:id="$+id:btn_date2"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="date"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:btn_day2"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="day"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:btn_highest2"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="top"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:btn_lowest2"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="lowest"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:top_margin="15vp"
+        ohos:bottom_margin="15vp"
+        ohos:left_margin="15vp"
+        ohos:right_margin="15vp">
+
+        <Button
+            ohos:id="$+id:btn_date3"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="date"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:btn_day3"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="day"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:btn_highest3"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="top"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:btn_lowest3"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="lowest"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:top_margin="15vp"
+        ohos:bottom_margin="15vp"
+        ohos:left_margin="15vp"
+        ohos:right_margin="15vp">
+
+        <Button
+            ohos:id="$+id:btn_date4"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="date"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:btn_day4"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="day"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:btn_highest4"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="top"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:btn_lowest4"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="lowest"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:top_margin="15vp"
+        ohos:bottom_margin="15vp"
+        ohos:left_margin="15vp"
+        ohos:right_margin="15vp">
+
+        <Button
+            ohos:id="$+id:btn_date5"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="date"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:btn_day5"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="day"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:btn_highest5"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="top"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:btn_lowest5"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="lowest"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:top_margin="15vp"
+        ohos:bottom_margin="15vp"
+        ohos:left_margin="15vp"
+        ohos:right_margin="15vp">
+
+        <Button
+            ohos:id="$+id:btn_date6"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="date"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:btn_day6"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="day"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:btn_highest6"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="top"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:btn_lowest6"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="lowest"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:top_margin="15vp"
+        ohos:bottom_margin="15vp"
+        ohos:left_margin="15vp"
+        ohos:right_margin="15vp">
+
+        <Button
+            ohos:id="$+id:btn_date7"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="date"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:btn_day7"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="day"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:btn_highest7"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="top"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:btn_lowest7"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+
+            ohos:text="lowest"
+            ohos:text_size="25vp"
+            ohos:text_weight="500"
+            ohos:text_alignment="center"/>
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

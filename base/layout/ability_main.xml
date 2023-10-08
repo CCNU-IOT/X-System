@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$media:ability_main_bg"
+    ohos:orientation="vertical">
+
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_parent">
+
+        <Button
+            ohos:id="$+id:btn_region"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:top_margin="15vp"
+            ohos:left_margin="15vp"
+            ohos:right_margin="15vp"
+            ohos:bottom_margin="15vp"
+
+            ohos:text="地区"
+            ohos:text_size="35vp"
+            ohos:text_weight="700"/>
+
+        <Text
+            ohos:id="$+id:txt_data"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text_alignment="horizontal_center"
+            ohos:left_margin="15vp"
+            ohos:right_margin="15vp"
+            ohos:bottom_margin="8vp"
+
+            ohos:text="data"
+            ohos:text_size="100vp"
+            ohos:text_weight="1000"
+            ohos:below="$id:btn_region"/>
+
+        <Text
+            ohos:id="$+id:txt_highest"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_alignment="horizontal_center"
+
+            ohos:text="最高："
+            ohos:text_size="25vp"
+            ohos:below="$id:txt_data"
+            ohos:horizontal_center="true"/>
+
+        <Text
+            ohos:id="$+id:txt_lowest"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_alignment="horizontal_center"
+
+            ohos:text="最低："
+            ohos:text_size="25vp"
+            ohos:below="$id:txt_data"
+            ohos:right_of="$id:txt_highest"/>
+
+        <ScrollView
+            ohos:id="$+id:one_day_data"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:below="$id:txt_lowest"
+            ohos:rebound_effect="true"
+            ohos:background_element="$graphic:frame_for_stollview"
+            ohos:top_margin="15vp"
+            ohos:left_margin="10vp"
+            ohos:right_margin="10vp">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:orientation="horizontal">
+                <include
+                    ohos:id="$+id:one_day_item"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    layout="$layout:one_day_item_layout"/>
+
+            </DirectionalLayout>
+
+        </ScrollView>
+
+        <ScrollView
+            ohos:id="$+id:several_days_data"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:below="$id:one_day_data"
+            ohos:top_margin="10vp"
+            ohos:left_margin="10vp"
+            ohos:right_margin="10vp"
+            ohos:rebound_effect="true"
+            ohos:background_element="$graphic:frame_for_stollview">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="vertical">
+
+                <include
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    layout="$layout:several_days_item_layout">
+                </include>
+            </DirectionalLayout>
+        </ScrollView>
+
+    </DependentLayout>
+
+
+</DirectionalLayout>
