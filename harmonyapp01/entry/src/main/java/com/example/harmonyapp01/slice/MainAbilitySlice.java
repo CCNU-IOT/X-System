@@ -16,7 +16,6 @@ public class MainAbilitySlice extends AbilitySlice {
 
     private Button btn_region;
     private Text txt_data;
-    private Button btn_refresh_data;
     Handler ui_handler;
     String sensor_id = "6500372502c946447751ea00_sensor";
     String data = "";
@@ -28,41 +27,7 @@ public class MainAbilitySlice extends AbilitySlice {
 
         btn_region = (Button) findComponentById(ResourceTable.Id_btn_region);
         txt_data = (Text) findComponentById(ResourceTable.Id_txt_data);
-        btn_refresh_data = (Button) findComponentById(ResourceTable.Id_btn_refresh_data);
 
-
-        //刷新实时数据
-        btn_refresh_data.setClickedListener(new Component.ClickedListener() {
-            @Override
-            public void onClick(Component component) {
-
-
-                //TODO:处理地区数据
-                btn_region.setText("华中师范大学南湖校区");
-
-                EventHandler handler = new EventHandler(EventRunner.getMainEventRunner()){
-                    @Override
-                    protected void processEvent(InnerEvent event) {
-                         //更新数据到UI组件
-                        txt_data.setText(data);
-                    }
-                };
-                new Thread(new Runnable() {
-                    @Override
-                    public void run() {
-                        httpGetHuaweiIOT iotController = null;
-                        try {
-                            iotController = new httpGetHuaweiIOT();
-                            data = iotController.getdev(sensor_id,"shadow","radiation")+"μSv";
-
-                            handler.sendEvent(InnerEvent.get());
-                        } catch (Exception e) {
-                            e.printStackTrace();
-                        }
-                    }
-                }).start();
-            }
-        });
 
 
     }
