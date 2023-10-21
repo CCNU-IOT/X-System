@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xsystem02</title>
+</head>
+<body>
+    <h1>xsystem02</h1>
+    <div id="map" style="height: 500px;"></div>
+
+
+
+    <!-- 引入高德地图的 JavaScript API -->
+<script src="https://webapi.amap.com/maps?v=1.4.15&key=7e932c2c7af12d456579e34b8a77a99a"></script>
+<script>
+    var map = new AMap.Map('map', {
+  zoom: 5, // 设置初始缩放级别
+  center: [120.0586, 30.2796] // 设置初始中心点坐标，这里以杭州为例
+});
+
+// 设置地图的限定区域为中国大陆沿海地区
+var bounds = new AMap.Bounds([73.5026, 18.1594], [135.0858, 53.5608]);
+map.setBounds(bounds);
+
+  </script>
+  
+
+</body>
+</html>
